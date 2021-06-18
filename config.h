@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "FreeMono-18";
+static char *font = "FreeMono-14";
 static char *font2[] = { "JoyPixels:pixelsize=10:antialias=true:autohint=true" };
 static int borderpx = 2;
 
