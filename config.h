@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "FreeMono-14";
-static char *font2[] = { "JoyPixels:pixelsize=10:antialias=true:autohint=true" };
+static char *font = "FreeMono-15";
+static char *font2[] = { "FreeMono-15" };
 static int borderpx = 2;
 
 /*
@@ -223,7 +223,7 @@ static MouseShortcut mshortcuts[] = {
 };
 
 /* Internal keyboard shortcuts. */
-#define MODKEY Mod4Mask
+#define MODKEY Mod1Mask
 #define TERMMOD (Mod4Mask|ShiftMask)
 
 MouseKey mkeys[] = {
